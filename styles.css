@@ -2,17 +2,25 @@
     font-family: monospace;
 }
 body{
+    font-size: 15px;
     margin: 0;
+    background-color:#f0f8ff ;
 }
 header{
     height: 100vh;
     color: white;
     background-color:#319ff9;
 }
+
+h1{
+    font-size: 50px;
+    color: #2196F3;
+}
 header h1{
+    color: white;
     margin: 0;
 }
-.but{
+.button{
 
     height: 40px;
     width: 140px;
@@ -20,7 +28,56 @@ header h1{
     border-radius: 10px;
     cursor: pointer;
 }
-.but:hover{
+.button:hover{
     color: white;
     background-color: darkblue;
+}
+img{
+    height: 200px;
+}
+main{
+    padding: 20px;
+}
+section{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    color: white;
+    background-color: #2196F3;
+}
+
+.submit:hover{
+    
+    background-color: #1780d5;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+
+    height: 25px;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #2196F3;
+}
+footer{
+    height: 125px;
+    color: lightgray;
+    background-color: black;
 }
